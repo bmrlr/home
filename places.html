@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="uk" class="html">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>HTML Home</title>
+  <link rel="shortcut icon" href="japan.png" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Play&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .card {
+      border-radius: 1em;
+      text-align: center;
+      transition: 1s;
+    }
+
+    .card:hover {
+      background-color: rgba(0, 0, 0, 0.01);
+      transform: scale(1.1);
+    }
+
+    .card img {
+      border-radius: 30px;
+      margin: auto;
+      padding: 1em;
+    }
+  </style>
+</head>
+
+<body class="body">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand p-0" href="#">
+        <img src="japan.png" alt="Logo" width="40">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="places.html">Favorite places</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-5">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+      <div class="col">
+        <div class="card">
+          <img src="байрактар.jpg" class="card-img-top" alt="Байрактар">
+          <div class="card-body">
+            <h5 class="card-title">Bayraktar TB2</h5>
+            <p class="card-text">Турецький ударний оперативно-тактичний середньовисотний безпілотний літальний апарат
+              (БПЛА) з великою тривалістю польоту, здатний виконувати дистанційно керовані або автономні польоти. Ціна 5
+              млн долларів.</p>
+            <a href="https://uk.wikipedia.org/wiki/Bayraktar_TB2" class="btn btn-primary" target="_blank">Дізнатися
+              більше про Bayraktar
+              TB2</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="хімарс.jpg" class="card-img-top" alt="Хімарс">
+          <div class="card-body">
+            <h5 class="card-title">M142 HIMARS</h5>
+            <p class="card-text">РСЗВ подібного плану дуже мобільна, у неї високий рівень автоматизації та точності.
+              Універсальність HIMARS дозволяє давати залп до 6 снарядів або вдарити однією оперативно-тактичною
+              балістичною ракетою. 5.1 – 5.6 млн доларів.</p>
+            <a href="https://uk.wikipedia.org/wiki/M142_HIMARS" class="btn btn-primary" target="_blank">Дізнатися
+              більше про M142 HIMARS</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="imgonline-com-ua-Resize-fmPzBiai6vWkGZSC.jpg" class="card-img-top" alt="Джевеліна">
+          <div class="card-body">
+            <h5 class="card-title">FGM-148 Javelin</h5>
+            <p class="card-text">Переносний протитанковий ракетний комплекс (ПТРК) виробництва американських підприємств
+              Raytheon та Lockheed Martin. Цей ПТРК США розробляли з 1986 року, а прийняли на озброєння в 1996 році.
+              Ціна приблизно від 600 тис. доларів</p>
+            <a href="https://uk.wikipedia.org/wiki/FGM-148_Javelin" class="btn btn-primary" target="_blank">Дізнатися
+              більше про FGM-148 Javelin</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</body>
+
+</html>

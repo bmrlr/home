@@ -1,0 +1,98 @@
+.body {
+	/* background: url(Japan.gif) no-repeat center center fixed;
+	background-size: cover; */
+	background-color: #bec4e1;
+	font-family: 'Aboreto', cursive;
+	font-family: 'Play', sans-serif;
+	font-size: 20px;
+}
+
+.card-text {
+	font-family: 'Aboreto', cursive;
+	font-family: 'Play', sans-serif;
+	color: darkslategrey;
+	font-size: 14px;
+}
+
+/* .card {
+	background-color: #9d94ba;
+} */
+
+/* .link {
+	color: lightcyan;
+	text-decoration: none;
+	background: rgba(95, 158, 160, 0.5);
+	padding: 0 5px;
+	border-radius: 5px;
+	border-bottom: 2px solid lightcyan;
+	transition: 1s;
+	opacity: 0;
+	animation: ani 2.5s forwards;
+}
+
+.link:hover {
+	background: lightcyan;
+	color: rgb(95, 158, 160);
+}
+
+.input {
+	backdrop-filter: blur(4px);
+}
+
+.button {
+	background-color: brown;
+	border-style: none;
+	border-radius: 5px;
+	font-family: 'Aboreto', cursive;
+	font-family: 'Play', sans-serif;
+	font-size: 20px;
+	color: aliceblue;
+}
+
+.text {
+	background-color: brown;
+	border-style: none;
+	border-radius: 5px;
+	font-family: 'Aboreto', cursive;
+	font-family: 'Play', sans-serif;
+	font-size: 14px;
+	color: aliceblue;
+}
+
+.btn {
+	background: saddlebrown;
+	color: burlywood;
+	border-style: none;
+	border-radius: 5px;
+	font-family: 'Aboreto', cursive;
+	font-family: 'Play', sans-serif;
+	font-size: 20px;
+	transition: 2s;
+}
+
+.btn:hover {
+	background: burlywood;
+	color: saddlebrown;
+}
+
+.html {
+	scroll-behavior: smooth;
+}
+
+#section1 {
+	height: 1000px;
+}
+
+#section2 {
+	height: 1000px;
+}
+
+@keyframes ani {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+} */
